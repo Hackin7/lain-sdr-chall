@@ -623,6 +623,8 @@
             />
           </p>
           <p>CHx_CFG1 = 0x{tlv320GainDbToRaw(tlv320Gain).toString(16).padStart(2, '0').toUpperCase()}</p>
+          
+        
         </fieldset>
 
         <!--<fieldset>
@@ -651,7 +653,21 @@
         <fieldset>
           <legend>Status</legend>
           <p>{statusMessage}</p>
+          <button
+            on:click={toggleFmAudio}
+            disabled={!device || isConnecting || isAudioStarting}
+          >
+            {#if isAudioStarting}
+              Starting...
+            {:else if isAudioPlaying}
+              Stop audio
+            {:else}
+              Start audio
+            {/if}
+          </button>
         </fieldset>
+
+        
       </section>
 
       
