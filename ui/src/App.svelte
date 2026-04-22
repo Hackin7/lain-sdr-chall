@@ -1,5 +1,6 @@
 <script>
   import { onDestroy, onMount } from 'svelte'
+  import sampleImageUrl from './assets/sample.png'
   import { describeDevice, requestHfsdrDevice } from './lib/webusb.js'
   import {
     parseFrequencyInput,
@@ -488,7 +489,7 @@
       <li>Connect & Pair a device</li>
       <li>Set the frequency & gain</li>
       <li>Pair the device again</li>
-      <li>Waterfall of the wireless world should start</li>
+      <li>Waterfall of the wireless world should start. If it doesn't look like <a target="_blank" rel="noreferrer" href={sampleImageUrl}>this</a>, unplug the device and try again</li>
     </ol>
   </section>
 
