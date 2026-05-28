@@ -16,6 +16,18 @@ Steps to using
 5. Waterfall of the wireless world should start. If it doesn't look like this, unplug the device and try again
 
 
+## Firmware used for Lake
+
+<img width="2543" height="478" alt="image" src="https://github.com/user-attachments/assets/6130567b-a3be-46c4-95cb-8c7c0817ffff" />
+
+<img width="2559" height="750" alt="image" src="https://github.com/user-attachments/assets/76eb2d88-7ac9-410d-aa12-f27217e2455e" />
+
+
+## Firmware left with polygl0ts
+
+v1.2
+https://github.com/rhgndf/hfsdr/releases/tag/v1%2C2
+
 ## UI Images
 
 hfsdr UI
