@@ -1,4 +1,6 @@
-Modulato Bombo Challenge
+# Modulato Bombo Challenge
+
+## Radio Board used for challenges
 
 PCB is hfsdr Prototype 1
 https://github.com/rhgndf/hfsdr/releases/tag/2026_02_27_prototype1
@@ -12,3 +14,12 @@ Steps to using
 3. Set the frequency & gain
 4. Pair the device again
 5. Waterfall of the wireless world should start. If it doesn't look like this, unplug the device and try again
+
+
+## UI Images
+
+hfsdr UI
+<img width="2227" height="1463" alt="image" src="https://github.com/user-attachments/assets/84051c83-f2e3-4980-a1de-623411d084cb" />
+
+lain ui (this repo)
+<img width="2023" height="1381" alt="image" src="https://github.com/user-attachments/assets/94183705-f423-48fd-80ab-4c944337cb5a" />
